@@ -20,8 +20,6 @@ class SaleTableViewController: UITableViewController {
 //    }
     var saleProductArray = [Product]()
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         saleProductArray.append(Product(productProfileName:"Upcycled denim backpack", productProfileImage: UIImage(named:"sale1")!, selectedProductImagesArray: [UIImage(named: "sale1")!,UIImage(named: "sale2")! ], selectedProductDesription: "Upcycled denim backpack.Size 20/25/9 sm.", priceTag: "45$"))
@@ -30,10 +28,6 @@ class SaleTableViewController: UITableViewController {
         
         saleProductArray.append(Product(productProfileName:"Upcycled velveteen backpack", productProfileImage: UIImage(named: "sale3")!, selectedProductImagesArray: [UIImage(named: "sale3")!, UIImage(named: "sale4")!], selectedProductDesription: "Upcycled velveteen backpack. Size 31/24/9 sm.", priceTag: "45$"))
         saleProductArray.append(Product(productProfileName: "Upcycled leather clutch", productProfileImage: UIImage(named: "sale7")!, selectedProductImagesArray: [UIImage(named: "sale7")!], selectedProductDesription: "Upcycled leather clucthe.One of a kind. Has lond adjustable handle. Size 30/20 sm.", priceTag: "35$"))
-        
-        
-        
-        
     }
     
     
@@ -49,7 +43,6 @@ class SaleTableViewController: UITableViewController {
         return saleProductArray.count
     }
     
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "saleCell", for: indexPath) as! SaleTableViewCell
         cell.saleImageCell.image = saleProductArray[indexPath.item].productProfileImage
@@ -60,8 +53,6 @@ class SaleTableViewController: UITableViewController {
     }
     
     // MARK: - Navigation
-    
-    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let productDetail = segue.destination as? ProductDetailsViewController {
@@ -74,9 +65,5 @@ class SaleTableViewController: UITableViewController {
                 }
             }
         }
-        
-        
     }
-    
-    
 }
