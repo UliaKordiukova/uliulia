@@ -36,7 +36,9 @@ class InfromationViewController: UIViewController {
         super.viewDidLoad()
         self.brandImage.image = UIImage(named: "aboutUsImage.png")
         
-        self.textFeildInfoAboutTheBrand.text = "We are Sustainable brand based in Ukraine (Kiyv) and USA (Chicago). We use only vintage (Upcycled) materials to produce our goods. Since 2013 we are making this world a little bit cleaner. Our purpose is to reduce textile waste and  fight growing fast fashion negative impact on our Planet."
+        self.textFeildInfoAboutTheBrand.text = "We are sustainable brand based in Ukraine (Kiyv) and USA (Chicago). We promote sustainable lifestyle and  use only vintage (Upcycled) materials to produce our goods. Since 2013 we are making this world a little bit cleaner. Our purpose is to reduce textile waste and fight growing fast fashion negative impact on our Planet. We made our online catalogue and map of sustainable fashion stores(including online stores) from  where you  can get inspiration  to create something of worth out of  old unnecessary things. Get creative! Get sustainable! "
+        
+        self.title = ""
     }
     
     override func didReceiveMemoryWarning() {
