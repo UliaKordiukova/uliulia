@@ -9,14 +9,22 @@
 /* Begin PBXBuildFile section */
 		221B1DB31EB8EF4900208E39 /* iconImageSource.png in Resources */ = {isa = PBXBuildFile; fileRef = 221B1DB21EB8EF4900208E39 /* iconImageSource.png */; };
 		22259F201E9A6110006D8C25 /* BagsClutchesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22259F1F1E9A6110006D8C25 /* BagsClutchesTableViewCell.swift */; };
+		225A11521ED63F3600E49B1D /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225A11511ED63F3600E49B1D /* FavoritesViewController.swift */; };
+		225A11541ED6451D00E49B1D /* FavoriteArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225A11531ED6451D00E49B1D /* FavoriteArray.swift */; };
+		225A11561ED646F200E49B1D /* FaveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225A11551ED646F200E49B1D /* FaveTableViewCell.swift */; };
 		22689C4D1E9A6A96009B0B2E /* DenimTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22689C4C1E9A6A96009B0B2E /* DenimTableViewCell.swift */; };
 		22689C4F1E9A6AB9009B0B2E /* DenimTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22689C4E1E9A6AB9009B0B2E /* DenimTableViewController.swift */; };
 		22689C511E9A6AC6009B0B2E /* SaleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22689C501E9A6AC6009B0B2E /* SaleTableViewController.swift */; };
 		22689C531E9A6AD7009B0B2E /* SaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22689C521E9A6AD7009B0B2E /* SaleTableViewCell.swift */; };
+		2276709B1ECA14AC00CA6475 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276709A1ECA14AC00CA6475 /* MapViewController.swift */; };
+		228855631ECA11840071956D /* Shops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228855621ECA11840071956D /* Shops.swift */; };
+		228855651ECA118D0071956D /* PinAnnotation.siwft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228855641ECA118D0071956D /* PinAnnotation.siwft.swift */; };
+		228855671ECA11A10071956D /* UpcycledAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228855661ECA11A10071956D /* UpcycledAnnotationView.swift */; };
+		228855691ECA11A40071956D /* shopsArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228855681ECA11A40071956D /* shopsArrays.swift */; };
 		22F062341E950B31001E7C91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F062331E950B31001E7C91 /* AppDelegate.swift */; };
 		22F062361E950B31001E7C91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F062351E950B31001E7C91 /* ViewController.swift */; };
 		22F062391E950B31001E7C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F062371E950B31001E7C91 /* Main.storyboard */; };
-		22F0623B1E950B31001E7C91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F0623A1E950B31001E7C91 /* Assets.xcassets */; };
+		22F0623B1E950B31001E7C91 /* com.uliulia.UliUliaApp2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F0623A1E950B31001E7C91 /* com.uliulia.UliUliaApp2.xcassets */; };
 		22F0623E1E950B31001E7C91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F0623C1E950B31001E7C91 /* LaunchScreen.storyboard */; };
 		22F062461E950BF2001E7C91 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F062451E950BF2001E7C91 /* AboutUsViewController.swift */; };
 		22F0626A1E951F3D001E7C91 /* BackpacksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F062691E951F3D001E7C91 /* BackpacksTableViewController.swift */; };
@@ -32,14 +40,22 @@
 		221B1DB11EB8E91400208E39 /* UliUlia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UliUlia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		221B1DB21EB8EF4900208E39 /* iconImageSource.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconImageSource.png; sourceTree = "<group>"; };
 		22259F1F1E9A6110006D8C25 /* BagsClutchesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BagsClutchesTableViewCell.swift; sourceTree = "<group>"; };
+		225A11511ED63F3600E49B1D /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		225A11531ED6451D00E49B1D /* FavoriteArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteArray.swift; sourceTree = "<group>"; };
+		225A11551ED646F200E49B1D /* FaveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaveTableViewCell.swift; sourceTree = "<group>"; };
 		22689C4C1E9A6A96009B0B2E /* DenimTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DenimTableViewCell.swift; sourceTree = "<group>"; };
 		22689C4E1E9A6AB9009B0B2E /* DenimTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DenimTableViewController.swift; sourceTree = "<group>"; };
 		22689C501E9A6AC6009B0B2E /* SaleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleTableViewController.swift; sourceTree = "<group>"; };
 		22689C521E9A6AD7009B0B2E /* SaleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleTableViewCell.swift; sourceTree = "<group>"; };
+		2276709A1ECA14AC00CA6475 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		228855621ECA11840071956D /* Shops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shops.swift; sourceTree = "<group>"; };
+		228855641ECA118D0071956D /* PinAnnotation.siwft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotation.siwft.swift; sourceTree = "<group>"; };
+		228855661ECA11A10071956D /* UpcycledAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcycledAnnotationView.swift; sourceTree = "<group>"; };
+		228855681ECA11A40071956D /* shopsArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shopsArrays.swift; sourceTree = "<group>"; };
 		22F062331E950B31001E7C91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22F062351E950B31001E7C91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22F062381E950B31001E7C91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		22F0623A1E950B31001E7C91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22F0623A1E950B31001E7C91 /* com.uliulia.UliUliaApp2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = com.uliulia.UliUliaApp2.xcassets; sourceTree = "<group>"; };
 		22F0623D1E950B31001E7C91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22F0623F1E950B31001E7C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22F062451E950BF2001E7C91 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
@@ -77,7 +93,10 @@
 			children = (
 				22F062371E950B31001E7C91 /* Main.storyboard */,
 				22F062351E950B31001E7C91 /* ViewController.swift */,
+				225A11511ED63F3600E49B1D /* FavoritesViewController.swift */,
+				225A11551ED646F200E49B1D /* FaveTableViewCell.swift */,
 				22F062731E954A07001E7C91 /* ProductDetailsViewController.swift */,
+				225A11531ED6451D00E49B1D /* FavoriteArray.swift */,
 				22F9FB971E9F6E1200A5D417 /* HowToOrderViewController.swift */,
 				22F062451E950BF2001E7C91 /* AboutUsViewController.swift */,
 				22FD5F541EB812330060B898 /* buttonsViewController.swift */,
@@ -89,9 +108,14 @@
 				22F062711E954285001E7C91 /* backpacksTableViewCell.swift */,
 				22F0626B1E951F4E001E7C91 /* BagsClutchesTableViewController.swift */,
 				22259F1F1E9A6110006D8C25 /* BagsClutchesTableViewCell.swift */,
+				228855681ECA11A40071956D /* shopsArrays.swift */,
+				2276709A1ECA14AC00CA6475 /* MapViewController.swift */,
+				228855621ECA11840071956D /* Shops.swift */,
+				228855661ECA11A10071956D /* UpcycledAnnotationView.swift */,
+				228855641ECA118D0071956D /* PinAnnotation.siwft.swift */,
 				22FD5F521EB7E52D0060B898 /* product.struct.swift */,
 				221B1DB21EB8EF4900208E39 /* iconImageSource.png */,
-				22F0623A1E950B31001E7C91 /* Assets.xcassets */,
+				22F0623A1E950B31001E7C91 /* com.uliulia.UliUliaApp2.xcassets */,
 				22F0623C1E950B31001E7C91 /* LaunchScreen.storyboard */,
 				22F0623F1E950B31001E7C91 /* Info.plist */,
 				22F062331E950B31001E7C91 /* AppDelegate.swift */,
@@ -172,7 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22F0623E1E950B31001E7C91 /* LaunchScreen.storyboard in Resources */,
-				22F0623B1E950B31001E7C91 /* Assets.xcassets in Resources */,
+				22F0623B1E950B31001E7C91 /* com.uliulia.UliUliaApp2.xcassets in Resources */,
 				22F062391E950B31001E7C91 /* Main.storyboard in Resources */,
 				221B1DB31EB8EF4900208E39 /* iconImageSource.png in Resources */,
 			);
@@ -188,14 +212,22 @@
 				22F9FB981E9F6E1200A5D417 /* HowToOrderViewController.swift in Sources */,
 				22F0626A1E951F3D001E7C91 /* BackpacksTableViewController.swift in Sources */,
 				22F062721E954285001E7C91 /* backpacksTableViewCell.swift in Sources */,
+				2276709B1ECA14AC00CA6475 /* MapViewController.swift in Sources */,
+				228855631ECA11840071956D /* Shops.swift in Sources */,
+				228855651ECA118D0071956D /* PinAnnotation.siwft.swift in Sources */,
 				22FD5F531EB7E52D0060B898 /* product.struct.swift in Sources */,
 				22FD5F551EB812330060B898 /* buttonsViewController.swift in Sources */,
+				228855691ECA11A40071956D /* shopsArrays.swift in Sources */,
 				22689C511E9A6AC6009B0B2E /* SaleTableViewController.swift in Sources */,
 				22F062361E950B31001E7C91 /* ViewController.swift in Sources */,
 				22F062741E954A07001E7C91 /* ProductDetailsViewController.swift in Sources */,
 				22F062461E950BF2001E7C91 /* AboutUsViewController.swift in Sources */,
+				225A11541ED6451D00E49B1D /* FavoriteArray.swift in Sources */,
+				225A11561ED646F200E49B1D /* FaveTableViewCell.swift in Sources */,
 				22259F201E9A6110006D8C25 /* BagsClutchesTableViewCell.swift in Sources */,
+				228855671ECA11A10071956D /* UpcycledAnnotationView.swift in Sources */,
 				22689C4D1E9A6A96009B0B2E /* DenimTableViewCell.swift in Sources */,
+				225A11521ED63F3600E49B1D /* FavoritesViewController.swift in Sources */,
 				22689C531E9A6AD7009B0B2E /* SaleTableViewCell.swift in Sources */,
 				22F062341E950B31001E7C91 /* AppDelegate.swift in Sources */,
 				22689C4F1E9A6AB9009B0B2E /* DenimTableViewController.swift in Sources */,

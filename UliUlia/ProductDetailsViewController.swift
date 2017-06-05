@@ -9,14 +9,18 @@
 import UIKit
 
 class ProductDetailsViewController: UIViewController, UIScrollViewDelegate{
-   
-
+    var arrayFavorites = [Product]()
     var productToDisplay: Product!
 
  
     @IBOutlet weak var productImagesScroll: UIScrollView!
     
     @IBOutlet weak var selectedProductDescriptionText: UILabel!
+    
+    
+    @IBAction func favoriteButton(_ sender: Any) {
+        arrayFavorites.append(productToDisplay)
+    }
     
     
     override func viewDidLoad() {

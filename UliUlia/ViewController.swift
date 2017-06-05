@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewwController: UIViewController {
     
     @IBOutlet weak var backgroundImageView: UIImageView!
     
@@ -17,11 +17,11 @@ class ViewController: UIViewController {
         override func viewDidLoad() {
         super.viewDidLoad()
         
-        //making navigation bar transparent :
-        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
-        self.navigationController?.navigationBar.shadowImage = UIImage()
-        self.navigationController?.navigationBar.isTranslucent = true
-        self.navigationController?.view.backgroundColor = .clear
+//        //making navigation bar transparent :
+//        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+//        self.navigationController?.navigationBar.shadowImage = UIImage()
+//        self.navigationController?.navigationBar.isTranslucent = true
+//        self.navigationController?.view.backgroundColor = .clear
         
         //setting animated background images:
         backgroundImageView.animationImages = [UIImage(named: "BGI1.png")!,
