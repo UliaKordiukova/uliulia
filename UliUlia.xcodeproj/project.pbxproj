@@ -10,7 +10,6 @@
 		221B1DB31EB8EF4900208E39 /* iconImageSource.png in Resources */ = {isa = PBXBuildFile; fileRef = 221B1DB21EB8EF4900208E39 /* iconImageSource.png */; };
 		22259F201E9A6110006D8C25 /* BagsClutchesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22259F1F1E9A6110006D8C25 /* BagsClutchesTableViewCell.swift */; };
 		225A11521ED63F3600E49B1D /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225A11511ED63F3600E49B1D /* FavoritesViewController.swift */; };
-		225A11541ED6451D00E49B1D /* FavoriteArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225A11531ED6451D00E49B1D /* FavoriteArray.swift */; };
 		225A11561ED646F200E49B1D /* FaveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225A11551ED646F200E49B1D /* FaveTableViewCell.swift */; };
 		22689C4D1E9A6A96009B0B2E /* DenimTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22689C4C1E9A6A96009B0B2E /* DenimTableViewCell.swift */; };
 		22689C4F1E9A6AB9009B0B2E /* DenimTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22689C4E1E9A6AB9009B0B2E /* DenimTableViewController.swift */; };
@@ -41,7 +40,6 @@
 		221B1DB21EB8EF4900208E39 /* iconImageSource.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconImageSource.png; sourceTree = "<group>"; };
 		22259F1F1E9A6110006D8C25 /* BagsClutchesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BagsClutchesTableViewCell.swift; sourceTree = "<group>"; };
 		225A11511ED63F3600E49B1D /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
-		225A11531ED6451D00E49B1D /* FavoriteArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteArray.swift; sourceTree = "<group>"; };
 		225A11551ED646F200E49B1D /* FaveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaveTableViewCell.swift; sourceTree = "<group>"; };
 		22689C4C1E9A6A96009B0B2E /* DenimTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DenimTableViewCell.swift; sourceTree = "<group>"; };
 		22689C4E1E9A6AB9009B0B2E /* DenimTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DenimTableViewController.swift; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 				225A11511ED63F3600E49B1D /* FavoritesViewController.swift */,
 				225A11551ED646F200E49B1D /* FaveTableViewCell.swift */,
 				22F062731E954A07001E7C91 /* ProductDetailsViewController.swift */,
-				225A11531ED6451D00E49B1D /* FavoriteArray.swift */,
 				22F9FB971E9F6E1200A5D417 /* HowToOrderViewController.swift */,
 				22F062451E950BF2001E7C91 /* AboutUsViewController.swift */,
 				22FD5F541EB812330060B898 /* buttonsViewController.swift */,
@@ -222,7 +219,6 @@
 				22F062361E950B31001E7C91 /* ViewController.swift in Sources */,
 				22F062741E954A07001E7C91 /* ProductDetailsViewController.swift in Sources */,
 				22F062461E950BF2001E7C91 /* AboutUsViewController.swift in Sources */,
-				225A11541ED6451D00E49B1D /* FavoriteArray.swift in Sources */,
 				225A11561ED646F200E49B1D /* FaveTableViewCell.swift in Sources */,
 				22259F201E9A6110006D8C25 /* BagsClutchesTableViewCell.swift in Sources */,
 				228855671ECA11A10071956D /* UpcycledAnnotationView.swift in Sources */,

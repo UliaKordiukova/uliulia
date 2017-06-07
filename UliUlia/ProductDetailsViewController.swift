@@ -9,29 +9,36 @@
 import UIKit
 
 class ProductDetailsViewController: UIViewController, UIScrollViewDelegate{
-    var arrayFavorites = [Product]()
+//    var arrayFavorites = [Product]()
     var productToDisplay: Product!
 
  
+    @IBOutlet weak var orderButton: UIButton!
+    @IBOutlet weak var buttonFaveOutlet: UIButton!
     @IBOutlet weak var productImagesScroll: UIScrollView!
-    
     @IBOutlet weak var selectedProductDescriptionText: UILabel!
-    
-    
     @IBAction func favoriteButton(_ sender: Any) {
         arrayFavorites.append(productToDisplay)
+        buttonFaveOutlet.isEnabled = false
+        buttonFaveOutlet.setTitle("Added", for: .normal)
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(productToDisplay.selectedProductDesription)
+        //making frame for buttons
+        buttonFaveOutlet.layer.cornerRadius = 5
+        buttonFaveOutlet.layer.borderWidth = 1
+        buttonFaveOutlet.layer.borderColor = UIColor.black.cgColor
         
+        orderButton.layer.cornerRadius = 5
+        orderButton.layer.borderWidth = 1
+        orderButton.layer.borderColor = UIColor.black.cgColor
+        
+        
+        print(productToDisplay.selectedProductDesription)
         var  imagesArray = productToDisplay.selectedProductImagesArray //ArrayOfPhotosForEachSelectedItem
         //setting desctriptin text
         selectedProductDescriptionText.text = productToDisplay.selectedProductDesription
-        
-        
         //images scroll
         for i in 0..<imagesArray!.count {
             let imageView = UIImageView()

@@ -10,18 +10,23 @@ import UIKit
 
 class MainViewwController: UIViewController {
     
+    @IBOutlet weak var wishListButton: UIButton!
     @IBOutlet weak var backgroundImageView: UIImageView!
-    
     @IBOutlet weak var buttonSeeOurProducts: UIButton!
     @IBOutlet weak var buttonAboutUs: UIButton!
         override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        //making navigation bar transparent :
-//        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
-//        self.navigationController?.navigationBar.shadowImage = UIImage()
-//        self.navigationController?.navigationBar.isTranslucent = true
-//        self.navigationController?.view.backgroundColor = .clear
+            
+        // makeing frame for wishlistbutton
+            wishListButton.layer.cornerRadius = 5
+            wishListButton.layer.borderWidth = 1
+            wishListButton.layer.borderColor = UIColor.black.cgColor
+            
+        //making navigation bar transparent :
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.isTranslucent = true
+        self.navigationController?.view.backgroundColor = .clear
         
         //setting animated background images:
         backgroundImageView.animationImages = [UIImage(named: "BGI1.png")!,
