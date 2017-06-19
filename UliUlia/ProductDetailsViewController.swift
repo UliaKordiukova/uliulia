@@ -8,19 +8,33 @@
 
 import UIKit
 
-class ProductDetailsViewController: UIViewController, UIScrollViewDelegate{
-//    var arrayFavorites = [Product]()
-    var productToDisplay: Product!
+let key = "faveKey"
 
- 
+class ProductDetailsViewController: UIViewController, UIScrollViewDelegate{
+    var favoritesIdSArray = [String]()
+    var productToDisplay: Product!
+    
+    
     @IBOutlet weak var orderButton: UIButton!
     @IBOutlet weak var buttonFaveOutlet: UIButton!
     @IBOutlet weak var productImagesScroll: UIScrollView!
     @IBOutlet weak var selectedProductDescriptionText: UILabel!
     @IBAction func favoriteButton(_ sender: Any) {
-        arrayFavorites.append(productToDisplay)
+        
+        //1. get our data from dafaults
+        let defaults = UserDefaults.standard.object(forKey: key)
+        var favoriteProductIDs = [String]()
+        if defaults != nil {
+            //2. If got this data, we are casting it to array of strings. As it should keep only IDs of products.
+            favoriteProductIDs = defaults as! [String]
+            //3. Using our data manager we are getting product array from our productIDs
+            favoriteProductIDs.append(productToDisplay.productID)
+           
+        }
+        UserDefaults.standard.set(favoriteProductIDs, forKey: key)
         buttonFaveOutlet.isEnabled = false
-        buttonFaveOutlet.setTitle("Added", for: .normal)
+        buttonFaveOutlet.setTitle("Added", for: .disabled)
+        
     }
     
     override func viewDidLoad() {
@@ -49,13 +63,13 @@ class ProductDetailsViewController: UIViewController, UIScrollViewDelegate{
                                      y:0,
                                      width: view.frame.width,
                                      height: self.productImagesScroll.frame.height)
-           // productImagesScroll.frame = imageView.frame
+            // productImagesScroll.frame = imageView.frame
             
             productImagesScroll.contentSize.width = imageView.frame.width * CGFloat(i + 1)
             imageView.contentMode = .scaleAspectFit
             //productImagesScroll.contentMode = .scaleAspectFit
             productImagesScroll.addSubview(imageView)
-       
+            
         }
         
     }

@@ -15,6 +15,7 @@ import UIKit
     var selectedProductImagesArray: [UIImage]!
     var selectedProductDesription: String // size, colour, material
     var priceTag: String //155$
+    var productID: String
 }
 
 //private var newItemsArray = [Product]()

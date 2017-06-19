@@ -15,6 +15,7 @@
 		22689C4F1E9A6AB9009B0B2E /* DenimTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22689C4E1E9A6AB9009B0B2E /* DenimTableViewController.swift */; };
 		22689C511E9A6AC6009B0B2E /* SaleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22689C501E9A6AC6009B0B2E /* SaleTableViewController.swift */; };
 		22689C531E9A6AD7009B0B2E /* SaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22689C521E9A6AD7009B0B2E /* SaleTableViewCell.swift */; };
+		226EF17C1EF855DE00FE847F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226EF17B1EF855DE00FE847F /* DataManager.swift */; };
 		2276709B1ECA14AC00CA6475 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276709A1ECA14AC00CA6475 /* MapViewController.swift */; };
 		228855631ECA11840071956D /* Shops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228855621ECA11840071956D /* Shops.swift */; };
 		228855651ECA118D0071956D /* PinAnnotation.siwft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228855641ECA118D0071956D /* PinAnnotation.siwft.swift */; };
@@ -45,6 +46,7 @@
 		22689C4E1E9A6AB9009B0B2E /* DenimTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DenimTableViewController.swift; sourceTree = "<group>"; };
 		22689C501E9A6AC6009B0B2E /* SaleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleTableViewController.swift; sourceTree = "<group>"; };
 		22689C521E9A6AD7009B0B2E /* SaleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleTableViewCell.swift; sourceTree = "<group>"; };
+		226EF17B1EF855DE00FE847F /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		2276709A1ECA14AC00CA6475 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		228855621ECA11840071956D /* Shops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shops.swift; sourceTree = "<group>"; };
 		228855641ECA118D0071956D /* PinAnnotation.siwft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotation.siwft.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				228855621ECA11840071956D /* Shops.swift */,
 				228855661ECA11A10071956D /* UpcycledAnnotationView.swift */,
 				228855641ECA118D0071956D /* PinAnnotation.siwft.swift */,
+				226EF17B1EF855DE00FE847F /* DataManager.swift */,
 				22FD5F521EB7E52D0060B898 /* product.struct.swift */,
 				221B1DB21EB8EF4900208E39 /* iconImageSource.png */,
 				22F0623A1E950B31001E7C91 /* com.uliulia.UliUliaApp2.xcassets */,
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22F9FB981E9F6E1200A5D417 /* HowToOrderViewController.swift in Sources */,
+				226EF17C1EF855DE00FE847F /* DataManager.swift in Sources */,
 				22F0626A1E951F3D001E7C91 /* BackpacksTableViewController.swift in Sources */,
 				22F062721E954285001E7C91 /* backpacksTableViewCell.swift in Sources */,
 				2276709B1ECA14AC00CA6475 /* MapViewController.swift in Sources */,
