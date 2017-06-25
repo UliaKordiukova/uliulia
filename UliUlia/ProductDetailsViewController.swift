@@ -39,6 +39,9 @@ class ProductDetailsViewController: UIViewController, UIScrollViewDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Share", style: .plain, target: self, action: Selector("sayHello"))
+        
+
         //making frame for buttons
         buttonFaveOutlet.layer.cornerRadius = 5
         buttonFaveOutlet.layer.borderWidth = 1
@@ -72,6 +75,26 @@ class ProductDetailsViewController: UIViewController, UIScrollViewDelegate{
             
         }
         
+    }
+    func share(sender:UIView){
+        UIGraphicsBeginImageContext(view.frame.size)
+        view.layer.render(in: UIGraphicsGetCurrentContext()!)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        let textToShare = "Check out my app"
+        
+        if let myWebsite = URL(string: "http://itunes.apple.com/app/idXXXXXXXXX") {//Enter link to your app here
+            let objectsToShare = [textToShare, myWebsite, image ?? #imageLiteral(resourceName: "app-logo")] as [Any]
+            let activityVC = UIActivityViewController(activityItems: objectsToShare, applicationActivities: nil)
+            
+            //Excluded Activities
+            activityVC.excludedActivityTypes = [UIActivityType.airDrop, UIActivityType.addToReadingList]
+            //
+            
+            activityVC.popoverPresentationController?.sourceView = sender
+            self.present(activityVC, animated: true, completion: nil)
+        }
     }
     
     
